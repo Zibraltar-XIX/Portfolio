@@ -1,0 +1,73 @@
+.primary-block{
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.profile{
+    align-content: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.secondary-block{
+    scroll-margin-top: 30px;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    padding: 3% 2%;
+}
+
+.secondary-block h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact-container{
+    width: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons{
+    width: auto;
+    height: 3vw;
+    margin: 10px;
+}
+
+.icons:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .primary-block{
+        width: auto;
+        height: auto;
+        align-content: center;
+        justify-content: center;
+        font-size: 2rem;
+        padding: 5% 5%;
+    }
+
+    .secondary-block {
+        padding: 5% 5%;
+    }
+
+    .secondary-block h1 {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+    }
+}
