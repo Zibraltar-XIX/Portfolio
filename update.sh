@@ -7,4 +7,4 @@ npm run build
 echo "update nginx"
 docker compose pull
 echo "Restarting Docker containers"
-docker compose up -d
+docker compose up -d --force-recreate
