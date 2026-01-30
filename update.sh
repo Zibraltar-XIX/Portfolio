@@ -4,5 +4,7 @@ echo "Installing dependencies"
 npm ci
 echo "Building project"
 npm run build
+echo "update nginx"
+docker compose pull
 echo "Restarting Docker containers"
-docker compose restart
+docker compose up -d
